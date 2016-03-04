@@ -1,0 +1,53 @@
+
+// ###############
+// IMPORTS #######
+
+@import "assets/css/animated/animacoes";
+@import "assets/css/normalize";
+@import "assets/css/flexbox";
+@import "estructure";
+
+// VARIABLES #####
+// ###############
+
+// ---> Cores <--- //
+@primary   : #5879c7;
+@secondary : #633085;
+
+.transition(@duration:0.2s, @ease:ease-out) {
+  -webkit-transition: all @duration @ease;
+  -moz-transition: all @duration @ease;
+  -o-transition: all @duration @ease;
+  transition: all @duration @ease;
+}
+
+.transform(...) {
+    -webkit-transform: @arguments;
+    -moz-transform: @arguments;
+    -o-transform: @arguments;
+    -ms-transform: @arguments;
+    transform: @arguments;
+}
+
+.transform-origin(...){
+    -webkit-transform-origin: @arguments;
+    -moz-transform-origin: @arguments;
+    -o-transform-origin: @arguments;
+    -ms-transform-origin: @arguments;
+    transform-origin: @arguments;
+}
+
+.bgGradient() {
+.bgGradient() {
+.bgGradient() {
+    background: radial-gradient(circle at 93.97% 87.94%, #633085, transparent 100%),
+                radial-gradient(circle at 6.97% 16.03%, #5879c7, transparent 100%),
+                radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+}
+
+// ###############
+// DEVELOP #######
+
+.wrap-cont {
+    .bgGradient;
+}
