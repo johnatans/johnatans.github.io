@@ -7,6 +7,8 @@
 
     <title>Johnatan Maciel - Develop</title>
     <link href="style.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
     <!-- metas -->
     <meta charset="UTF-8">
@@ -22,6 +24,10 @@
 <body>
 
     <div class="wrapper">
+
+        <canvas id="canv">
+        </canvas>
+
         <div class="wrap-content">
 
             <!-- head profile -->
@@ -30,83 +36,90 @@
                     <h1>
                         <img src="develop/assets/img/johnatan-maciel-programer-develop-frontend.png" alt="Johnatan Maciel - Develop">
                     </h1>
+                    <h1>
+                        Johnatan Maciel
+                    </h1>
                 </div>
         	</header>
 
             <!-- Search me =D (y) -->
             <section class="search-me">
                 <header class="title-search_me">
-                    <h2>Onde me encontrar</h2>
+                    <h2>FrontEnd Develop</h2>
                 </header>
                 <article class="social">
                     <nav>
                         <ul>
-                            <li><a href="#">GitHub</a></li>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Instagram</a></li>
-                            <li><a href="#">CodePen</a></li>
+                            <li><a target="_blank" href="https://github.com/JohnatanMaciel"><span class="fa fa-github"></span></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/johnatan-maciel-93139898?trk=nav_responsive_tab_profile"><span class="fa fa-linkedin"></span></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/johnatan.maciell"><span class="fa fa-facebook"></span></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/johnatanmaciell/"><span class="fa fa-instagram"></span></a></li>
+                            <li><a target="_blank" href="http://codepen.io/JohnatanMaciel/"><span class="fa fa-codepen"></span></a></li>
                         </ul>
                     </nav>
                 </article>
                 <footer class="ft">
                     <div class="dev-lasts-jobs">
 
-                        <div class="wrap-content">
+                        <div class="title-wrap">
+                            <h2>Recent work:</h2>
+                        </div>
+
+                        <div class="wrap-content colsJobs">
 
                             <section class="job job-1">
                                 <header class="head-brand">
-                                    <h2>TEDxFortaleza</h2>
+                                    <img src="develop/assets/img/logo-morphus.png" height="auto" width="100%" alt="">
                                 </header>
                                 <article class="job-about">
                                     <h3>
-                                        title
+                                        Morphus - Segurança da informação
                                     </h3>
                                     <p>
-                                        description
+                                        Uma empresa com reconhecimento nacional e atuação desde 2002 com unidades no Rio de Janeiro, Fortaleza e Recife. Nossos serviços de CSIRT e Testes de Aplicações unem Inteligência e Tecnologia.
                                     </p>
                                 </article>
                                 <footer>
                                     <div class="site-link">
-                                        <a href="#">Link</a>
+                                        <a target="_blank" href="http://www.morphus.com.br/">Acesse aqui <span class="fa fa-external-link"></span></a>
                                     </div>
                                 </footer>
                             </section>
 
-                            <section class="job job-1">
+                            <section class="job job-2">
                                 <header class="head-brand">
-                                    <h2>TEDxFortaleza</h2>
+                                    <img src="develop/assets/img/brand-serlares.png" height="auto" width="100%" alt="Serlares Restaurante">
                                 </header>
                                 <article class="job-about">
                                     <h3>
-                                        title
+                                        Serlares - Especialistas em refeições corporativas.
                                     </h3>
                                     <p>
-                                        description
+                                        São mais de 4 décadas levando sabor e qualidade de vida para médias e grandes empresas no Ceará e Rio Grande do Norte.
                                     </p>
                                 </article>
                                 <footer>
                                     <div class="site-link">
-                                        <a href="#">Link</a>
+                                        <a target="_blank" href="http://serlares.com.br/">Acesse aqui <span class="fa fa-external-link"></span></a>
                                     </div>
                                 </footer>
                             </section>
 
-                            <section class="job job-1">
+                            <section class="job job-3">
                                 <header class="head-brand">
-                                    <h2>TEDxFortaleza</h2>
+                                    <img src="develop/assets/img/tedx-fortaleza-2016.svg" height="auto" width="100%" alt="">
                                 </header>
                                 <article class="job-about">
                                     <h3>
-                                        title
+                                        TEDxFortaleza - Mentes compartilhando ideias.
                                     </h3>
                                     <p>
-                                        description
+                                        Programa de eventos locais, auto-organizados, que reúne pessoas para compartilhar uma experiência semelhante ao TED.
                                     </p>
                                 </article>
                                 <footer>
                                     <div class="site-link">
-                                        <a href="#">Link</a>
+                                        <a target="_blank" href="http://www.tedxfortaleza.com.br/">Acesse aqui <span class="fa fa-external-link"></span></a>
                                     </div>
                                 </footer>
                             </section>
@@ -119,6 +132,8 @@
 
         </div>
     </div>
+
+    <script src="develop/js/script.js"></script>
 
 </body>
 <!-- finish -->
